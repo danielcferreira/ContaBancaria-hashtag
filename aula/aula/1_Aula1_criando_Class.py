@@ -9,7 +9,7 @@
 
 class TV:
     # atributos de classe
-    cor = preta 
+    cor = 'preta' 
 
 
     # metod é uma funcao 
@@ -22,8 +22,9 @@ class TV:
         self.tamanho = tamanho
         self.canal = "Netflix"
         self.volume = 10
+
     # o que é o self ? 
-    #  seu quer dizer ele mesmo, e um paramentro que remeta a propria classe tv 
+    # quer dizer ele mesmo, e um paramentro que remeta a propria classe tv 
     # é ele quem permite que possa acessar a classe fora dela, semque quiser 
     # acessar um parametro da classe deve se usar o self na frente
 
@@ -31,6 +32,8 @@ class TV:
     def mudar_canal(self, novo_canal):
         self.canal =  novo_canal
 
+
+# programa
 tv_sala = TV(22)
 tv_quarto = TV(30)
 
